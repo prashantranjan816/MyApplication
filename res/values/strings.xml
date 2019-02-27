@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">QAChat</string>
+    <string name="username">Please Enter username</string>
+    <string name="password">Please Enter password</string>
+    <string name="login_submit">Signup</string>
+    <string name="Welcome_taxt">Hello WellCome</string>
+    <string name="Main_Button">Go to main Activity</string>
+    <string name="logout_submit">logout_submit</string>
+    <string name="Guest_submit">Login</string>
+    <string name="google_submit">Google+</string>
+    <string name="facebook_submit">Facebook</string>
+    <string name="SerchBox">Please type here..</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
