@@ -12,16 +12,16 @@
         android:layout_height="match_parent"
         tools:context=".MainActivity">
 
-
-        <com.flaviofaria.kenburnsview.KenBurnsView
-            android:id="@+id/kbv"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:src="@drawable/anim"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+        <!--Below 9 line for BackGround Animation-->
+        <!--<com.flaviofaria.kenburnsview.KenBurnsView-->
+        <!--android:id="@+id/kbv"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:src="@drawable/anim"-->
+        <!--app:layout_constraintBottom_toBottomOf="parent"-->
+        <!--app:layout_constraintLeft_toLeftOf="parent"-->
+        <!--app:layout_constraintRight_toRightOf="parent"-->
+        <!--app:layout_constraintTop_toTopOf="parent" />-->
 
 
         <EditText

@@ -26,7 +26,7 @@ public class RemotRecive extends AppCompatActivity {
 
         if (remoteReply != null) {
 
-            String message = (String) remoteReply.getCharSequence( NotificationTest.TXT_REPLY.toString() );
+            String message = (String) remoteReply.getCharSequence( NotificationTest.TXT_REPLY );
             textView.setText( message );
         }
 

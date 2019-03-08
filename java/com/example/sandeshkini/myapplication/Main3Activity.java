@@ -33,8 +33,8 @@ public class Main3Activity extends AppCompatActivity implements View.OnClickList
 
 //        Below code for music button
 
-        start = (Button) findViewById( R.id.Mstart );
-        stop = (Button) findViewById( R.id.Mstop );
+        start = findViewById( R.id.Mstart );
+        stop = findViewById( R.id.Mstop );
 
         start.setOnClickListener( this );
         stop.setOnClickListener( this );

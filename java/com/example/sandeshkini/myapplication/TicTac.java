@@ -133,13 +133,10 @@ public class TicTac extends AppCompatActivity implements View.OnClickListener {
             return true;
         }
 
-        if (field[0][2].equals( field[1][1] )
+        return field[0][2].equals( field[1][1] )
                 && field[0][2].equals( field[2][0] )
-                && !field[0][2].equals( "" )) {
-            return true;
-        }
+                && !field[0][2].equals( "" );
 
-        return false;
     }
 
     private void player1Wins() {

@@ -17,7 +17,7 @@ public class PageAdapter extends FragmentPagerAdapter {
     }
 
     public void addFragment(Fragment frag, String tit) {
-        this.fragments.add( (Fragment) frag );
+        this.fragments.add( frag );
         this.title.add( tit );
 
     }

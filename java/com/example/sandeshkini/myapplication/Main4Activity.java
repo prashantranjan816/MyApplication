@@ -16,9 +16,9 @@ public class Main4Activity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main4);
-        tabLayout = (TabLayout) findViewById( R.id.tab );
+        tabLayout = findViewById( R.id.tab );
         //appBarLayout=(AppBarLayout)findViewById(R.id.appbarlayout);
-        viewPager = (ViewPager) findViewById( R.id.viewpager );
+        viewPager = findViewById( R.id.viewpager );
         pagerAdapter = new PageAdapter( getSupportFragmentManager() );
         pagerAdapter.addFragment( new BlankFragment(), "F1" );
         pagerAdapter.addFragment( new Fragment2(), "F2" );

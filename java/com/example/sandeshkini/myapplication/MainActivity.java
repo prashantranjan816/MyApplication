@@ -11,7 +11,6 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
 
-import com.flaviofaria.kenburnsview.KenBurnsView;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
@@ -22,8 +21,8 @@ public class MainActivity extends AppCompatActivity {
 //    FreshGitBarnch Test
 
     //    Below two line for backGround Animation
-    private KenBurnsView kbv;
-    private boolean moving = true;
+//    private KenBurnsView kbv;
+//    private boolean moving = true;
 
     private static final String TAG = MainActivity.class.getName();
     String message;
