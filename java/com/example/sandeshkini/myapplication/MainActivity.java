@@ -18,7 +18,7 @@ import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 
 public class MainActivity extends AppCompatActivity {
-//    FreshGitBarnch Test
+//    FreshGitBarnch Test with no error
 
     //    Below two line for backGround Animation
 //    private KenBurnsView kbv;
