@@ -11,6 +11,7 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import com.flaviofaria.kenburnsview.KenBurnsView;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
@@ -18,6 +19,10 @@ import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 
 public class MainActivity extends AppCompatActivity {
+
+    //    Below two line for backGround Animation
+    private KenBurnsView kbv;
+    private boolean moving = true;
 
     private static final String TAG = MainActivity.class.getName();
     String message;
@@ -36,6 +41,34 @@ public class MainActivity extends AppCompatActivity {
 
         // Initialize Firebase Auth
         mAuth = FirebaseAuth.getInstance();
+
+
+////========================BackGround Animation================================
+//        kbv = findViewById(R.id.kbv);
+//
+//        AccelerateDecelerateInterpolator adi = new AccelerateDecelerateInterpolator();
+//        RandomTransitionGenerator generator = new RandomTransitionGenerator(2000, adi);
+//        kbv.setTransitionGenerator(generator);
+//
+//        kbv.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                if (moving) {
+//                    kbv.pause();
+//                    moving = false;
+//                } else {
+//                    kbv.resume();
+//                    moving = true;
+//                }
+//            }
+//        });
+//
+//
+////====================================================================================
+
+
+
+
     }
 
 

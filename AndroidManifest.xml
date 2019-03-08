@@ -3,6 +3,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.example.sandeshkini.myapplication">
 
+    <uses-permission android:name="ANDROID.PERMISSION.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -11,7 +16,17 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".MusicSystem"></activity>
+        <activity android:name=".ImageAnimation"></activity>
+        <activity android:name=".KenBurnsView" />
+        <activity android:name=".DiceRoller" />
+        <activity android:name=".TicTac" />
+        <activity android:name=".BottleGame" />
+        <activity android:name=".RemotRecive" />
+        <activity android:name=".NoActivity" />
+        <activity
+            android:name=".YesActivity"
+            android:label="@string/title_activity_yes"
+            android:theme="@style/AppTheme.NoActionBar" /> <!-- <activity android:name=".NotificationTest"></activity> -->
         <activity android:name=".UrlSearchEngen" />
         <activity android:name=".FrmActivity" />
         <activity android:name=".Main4Activity" />
@@ -35,6 +50,13 @@
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
+        </activity> <!-- Below two line <meta-data will add a back nevigation arrow on page -->
+        <activity
+            android:name=".NotificationTest"
+            android:parentActivityName=".Main3Activity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Main3Activity" />
         </activity>
         <activity android:name=".TripList" />
 

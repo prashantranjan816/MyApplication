@@ -121,4 +121,8 @@ public class Main3Activity extends AppCompatActivity implements View.OnClickList
     }
 
 
+    public void NextPage(View view) {
+
+        startActivity( new Intent( this, NotificationTest.class ) );
+    }
 }
